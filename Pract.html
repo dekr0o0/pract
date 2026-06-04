@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th {
+            background-color: rgb(179, 126, 126);
+        }
+        td {
+            background-color: rgb(139, 233, 233);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="/">Стажировка в <strong>IT</strong></a>
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li><a href="#vac"></a>Вакансии</li>
+                        <li><a href="#uslov"></a>Условия</li>
+                        <li><a href="#treb"></a>Требование</li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <a href="#zayv">Подать заявку</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Стажировка в одной из лучших IT-компаний России</h1>
+        </section>
+        <section id="vac">
+            <h2>Вакансии</h2>
+            <ul>
+                <li>Frontend</li>
+                <li>Backend</li>
+                <li>MobileDev</li>
+                <li>DevOps</li>
+                <li>Data analize</li>
+                <li>Machine learning</li>
+            </ul>
+        </section>
+        <section id="uslov">
+            <h2>Условия</h2>
+            <table>
+                <thead>
+                    <tr>
+                       <th></th>
+                       <th>Стажировка в течение года</th>
+                       <th>Стажировка летняя</th>
+                       <th>Погружение:иненсивная стажировка</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Формат работы</th>
+                        <td colspan="2">Очно или Дистант</td>
+                        <td>Очно</td>
+                    </tr>
+                    <tr>
+                        <th>Дата начала</th>
+                        <td>Каждый месяц</td>
+                        <td>Май</td>
+                        <td>Февраль и Август</td>
+                    </tr>
+                    <tr>
+                        <th>Оплата проезда</th>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                        <td>Yes</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th>Оплата</th>
+                        <td colspan="2">до 50 000 Р</td>
+                        <td>до 100 000 р</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section id="treb">
+            <h2 >Требования</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, dolorem! Accusantium dolores quas omnis quis minus, sunt sint, ipsa impedit optio quos laborum placeat rerum labore! Porro illo obcaecati unde illum debitis deserunt adipisci veniam dignissimos vel doloremque asperiores voluptatum facere, maxime a, distinctio eveniet officia cumque incidunt mollitia exercitationem.</p>
+        </section>
+        <section id="zayv">
+            <h2>Подать заявку</h2>
+            <form action="" method="get">
+                <label for="city">Ваш город</label>
+                <select name="city" id="city">
+                    <option value="">--Выберите город--</option>
+                    <option value="nn">Нижний Новгород</option>
+                </select>
+
+                <label for="nav">Направление</label>
+                <select name="nav" id="nav">
+                    <option value="">--Выберите направление--</option>
+                    <option value="Frontend">Frontend</option>
+                    <option value="Backend">Backend</option>
+                </select>
+
+                <label for="name">Имя</label>
+                <input type="text" id="name" required>
+
+                <label for="surname">Фамилия</label>
+                <input type="text" id="surname" required>
+
+                <label for="email">email</label>
+                <input type="email" id="email" required>
+
+                <label for="tel">Телефон</label>
+                <input type="number" min="11" max="11" id="tel" required>
+
+                <label for="edu">Уровень вашего образования</label>
+                <fieldset>
+                    <label><input type="checkbox" value="Среднее общее">Среднее общее</label>
+                    <label><input type="checkbox" value="Среднее профессиональное">Среднее профессиональное</label>
+                    <label><input type="checkbox" value="Высщее">Высшее</label>
+                </fieldset>
+                
+                <label for="web">Ссылка на соц.сети</label>
+                <input type="url" name="url" id="url" required>
+
+                <label for="desc"></label>
+                <textarea name="desc" autocomplete="off" id="desc" cols="30" rows="10" placeholder="Расскажите о себе"></textarea>
+
+                <button type="reset">Сбросить</button>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <a href="/">Стажировка в <strong>IT</strong></a>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit iste sit exercitationem. Dolores placeat dignissimos saepe molestiae dicta vitae, inventore, qui temporibus porro quod molestias harum aliquam repellat nostrum! Earum.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

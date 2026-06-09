@@ -4,7 +4,7 @@ section {
 }
 
 h2 + p {
-    color: brown;
+    color: rgb(83, 49, 49);
 }
 
 h2:hover {
@@ -13,4 +13,17 @@ h2:hover {
 
 a:visited {
     color: chartreuse;
+}
+
+label, select, input, textarea, fieldset {
+    display: block;
+    margin: 2px;
+}
+
+fieldset {
+    border: 2px solid black;
+}
+
+.zayavka fieldset label, input {
+    display: inline-block;
 }

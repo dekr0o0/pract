@@ -92,14 +92,16 @@
             <h2 >Требования</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, dolorem! Accusantium dolores quas omnis quis minus, sunt sint, ipsa impedit optio quos laborum placeat rerum labore! Porro illo obcaecati unde illum debitis deserunt adipisci veniam dignissimos vel doloremque asperiores voluptatum facere, maxime a, distinctio eveniet officia cumque incidunt mollitia exercitationem.</p>
         </section>
-        <section id="zayv">
+        <section class="zayavka" id="zayv">
             <h2>Подать заявку</h2>
             <form action="" method="get">
-                <label for="city">Ваш город</label>
-                <select name="city" id="city">
+                <div>
+                    <label for="city">Ваш город</label>
+                    <select name="city" id="city">
                     <option value="">--Выберите город--</option>
                     <option value="nn">Нижний Новгород</option>
-                </select>
+                    </select>
+                </div>
 
                 <label for="nav">Направление</label>
                 <select name="nav" id="nav">
@@ -122,9 +124,15 @@
 
                 <label for="edu">Уровень вашего образования</label>
                 <fieldset>
+                    <div>
                     <label><input type="checkbox" value="Среднее общее">Среднее общее</label>
+                    </div>
+                    <div>
                     <label><input type="checkbox" value="Среднее профессиональное">Среднее профессиональное</label>
+                    </div>
+                    <div>
                     <label><input type="checkbox" value="Высщее">Высшее</label>
+                    </div>
                 </fieldset>
                 
                 <label for="web">Ссылка на соц.сети</label>
@@ -141,6 +149,9 @@
             <h2 >Доп. требования</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, dolorem! Accusantium dolores quas omnis quis minus, sunt sint, ipsa impedit optio quos laborum placeat rerum labore! Porro illo obcaecati unde illum debitis deserunt adipisci veniam dignissimos vel doloremque asperiores voluptatum facere, maxime a, distinctio eveniet officia cumque incidunt mollitia exercitationem.</p>
         </section>
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa0603cb660151e551c3654a83dd5fd55f82dc1a5f439c51e20978aaeee121d69&amp;source=constructor" width="991" height="240" frameborder="0"></iframe>
+        </div>
     </main>
     <footer>
         <div class="container">

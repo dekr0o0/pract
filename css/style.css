@@ -1,0 +1,16 @@
+section {
+    background-color: blanchedalmond;
+    border: 2px solid black;
+}
+
+h2 + p {
+    color: brown;
+}
+
+h2:hover {
+    color: aqua;
+}
+
+a:visited {
+    color: chartreuse;
+}

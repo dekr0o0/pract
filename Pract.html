@@ -10,12 +10,12 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <!-- <header>
         <div class="container">
             <div class="logo">
                 <a href="/">Стажировка в IT</a>
             </div>
-            <div>
+            <div class="nav">
                 <nav>
                     <ul>
                         <li><a href="#vac">Вакансии</a></li>
@@ -24,15 +24,15 @@
                     </ul>
                 </nav>
             </div>
-            <div>
+            <div class="zayavka-link">
                 <a href="#zayv">Подать заявку</a>
             </div>
         </div>
-    </header>
+    </header> -->
     <main>
         <div class="container">
             <section>
-            <h1>Стажировка <br> в одной из лучших <br> <strong>IT-компаний России</strong></h1>
+            <h1 class="main-title">Стажировка <br> в одной из лучших <br> <strong>IT-компаний </strong> России </h1>
         </section>
         <figure>
             <img src="/1649230472.jpg" alt="Стажировка в IT">
@@ -50,8 +50,8 @@
         </section>
         <section id="uslov">
             <h2>Условия</h2>
-            <table class="data">
-                <thead>
+            <table class="table-data">
+                <thead class="data">
                     <tr>
                        <th></th>
                        <th>Стажировка в течение года</th>
@@ -75,27 +75,21 @@
                         <th>Оплата проезда</th>
                         <td colspan="3">Yes</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <th>Оплата проживания</th>
                         <td>No</td>
                         <td colspan="2">Yes</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <th>Занятость</th>
                         <td colspan="2">Гибкий график от 20 часов до 40 часов в неделю</td>
                         <td>Полная 5/2</td>
                     </tr>
-                </tbody>
-                <tbody>
                     <tr>
                         <th>Продолжительность</th>
                         <td>от 3 до 6 месяцев</td>
                         <td>3 месяца</td>
-                        <td>от 1 до 2 месяцев</td>
+                        <td>1 месяц</td>
                     </tr>
                 </tbody>
                 <tfoot>
@@ -115,33 +109,33 @@
             <h2>Подать заявку</h2>
             <form action="" method="get">
                 <div>
-                    <label for="city">Ваш город</label>
+                    <label for="city"><h3>Ваш город</h3></label>
                     <select name="city" id="city">
                     <option value="">--Выберите город--</option>
                     <option value="nn">Нижний Новгород</option>
                     </select>
                 </div>
 
-                <label for="nav">Направление</label>
-                <select name="nav" id="nav">
+                <label for="nav"><h3>Направление</h3></label>
+                <select name="nav" id="nav1">
                     <option value="">--Выберите направление--</option>
                     <option value="Frontend">Frontend</option>
                     <option value="Backend">Backend</option>
                 </select>
 
-                <label for="name">Имя</label>
+                <label for="name"><h3>Имя</h3></label>
                 <input type="text" id="name" required>
 
-                <label for="surname">Фамилия</label>
+                <label for="surname"><h3>Фамилия</h3></label>
                 <input type="text" id="surname" required>
 
-                <label for="email">email</label>
+                <label for="email"><h3>Email</h3></label>
                 <input type="email" id="email" required>
 
-                <label for="tel">Телефон</label>
-                <input type="number" min="11" max="11" id="tel" required>
+                <label for="tel"><h3>Телефон</h3></label>
+                <input type="input-number" min="11" max="11" id="tel" required>
 
-                <label for="edu">Уровень вашего образования</label>
+                <label for="edu"><h3>Уровень вашего образования</h3></label>
                 <fieldset>
                     <div>
                     <label><input type="checkbox" value="Среднее общее">Среднее общее</label>
@@ -150,18 +144,20 @@
                     <label><input type="checkbox" value="Среднее профессиональное">Среднее профессиональное</label>
                     </div>
                     <div>
-                    <label><input type="checkbox" value="Высщее">Высшее</label>
+                    <label><input type="checkbox" value="Высшее">Высшее</label>
                     </div>
                 </fieldset>
                 
-                <label for="web">Ссылка на соц.сети</label>
+                <label for="web"><h3>Ссылка на соц.сети</h3></label>
                 <input type="url" name="url" id="url" required>
 
-                <label for="desc"></label>
+                <label for="desc"><h3>Ваш опыт</h3></label>
                 <textarea name="desc" autocomplete="off" id="desc" cols="30" rows="10" placeholder="Расскажите о себе"></textarea>
 
-                <button type="reset" >Сбросить</button>
-                <button type="submit">Отправить</button>
+                <div class="btns">
+                <button type="reset" class="btn">Сбросить</button>
+                <button type="submit" class="btn">Отправить</button>
+                </div>
             </form>
         </section>
         <section id="treb2">
@@ -173,7 +169,7 @@
         </div>
         </div>
     </main>
-    <footer>
+    <!-- <footer>
         <div class="container">
             <div class="logo">
                 <a href="/">Стажировка в IT</a>
@@ -182,6 +178,6 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit iste sit exercitationem. Dolores placeat dignissimos saepe molestiae dicta vitae, inventore, qui temporibus porro quod molestias harum aliquam repellat nostrum! Earum.</p>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>

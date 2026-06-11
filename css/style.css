@@ -8,7 +8,6 @@
     "CRSV" 0.5,
     "ELSH" 0,
     "ELXP" 0;
-    color: rgb(0, 0, 0);
 }
 
 html, body {
@@ -16,21 +15,6 @@ html, body {
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-}
-
-.data td {
-    padding: 15px;
-    text-align: center;
-}
-
-
-
-.data tr:nth-child(2n) {
-    background: rgb(255, 255, 255);
-}
-
-.data tr:nth-child(2n) td:last-child {
-    border-radius: 0 30px 30px 0;
 }
 
 .container {
@@ -57,7 +41,7 @@ p {
 }
 
 a:visited {
-    color: rgb(212, 220, 255);
+    color: rgb(50, 55, 75);
 }
 
 label, select, input, textarea, fieldset {
@@ -82,21 +66,82 @@ label, select, input, textarea, fieldset {
 #vac ul li {
     font-size: 1.5rem;
     display: inline-block;
-    margin: 10px;
-    background-color: rgb(49, 134, 190);
+    margin: 10px auto;
+    background-color: rgb(255, 255, 255);
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 30px;
+}
+
+#vac li:nth-child(2n) {
+    background-color: rgb(38, 237, 252);
 }
 
 .logo {
     font-size: 2rem;
 }
 
-#tel {
-    width: 30%;
-    padding: 10px 10px;
-}
-
 img {
     border-radius: 20px;
+}
+
+.table-data {
+    color: rgb(255, 255, 255);
+}
+
+
+.table-data td {
+    padding: 15px;
+    text-align: center;
+}
+
+.table-data tr:nth-child(2n) {
+    background: rgb(190, 234, 255);
+    color: rgb(0, 0, 0);
+}
+
+.table-data tr:nth-child(2n) td:last-child {
+    border-radius: 0 30px 30px 0;
+}
+
+.table-data tr:nth-child(2n) th {
+    border-radius: 30px 0 0 30px ;
+}
+
+.main-title strong {
+    font-weight: 400;
+    color: rgb(255, 39, 68);
+}
+
+h2 {
+    color: rgb(247, 39, 66);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+#city, #nav1, #tel, #edu-label, #email, #name, #surname, #url, #desc {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 61, 61);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+fieldset {
+    color: rgb(255, 255, 255);
+    border: none;
 }

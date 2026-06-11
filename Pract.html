@@ -4,21 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
     <title>Document</title>
-    <style>
-        th {
-            background-color: rgb(179, 126, 126);
-        }
-        td {
-            background-color: rgb(139, 233, 233);
-        }
-    </style>
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <a href="/">Стажировка в <strong>IT</strong></a>
+                <a href="/">Стажировка в IT</a>
             </div>
             <div>
                 <nav>
@@ -37,8 +32,11 @@
     <main>
         <div class="container">
             <section>
-            <h1>Стажировка <br> в одной из лучших <br> IT-компаний России</h1>
+            <h1>Стажировка <br> в одной из лучших <br> <strong>IT-компаний России</strong></h1>
         </section>
+        <figure>
+            <img src="/1649230472.jpg" alt="Стажировка в IT">
+        </figure>
         <section id="vac">
             <h2>Вакансии</h2>
             <ul>
@@ -52,7 +50,7 @@
         </section>
         <section id="uslov">
             <h2>Условия</h2>
-            <table>
+            <table class="data">
                 <thead>
                     <tr>
                        <th></th>
@@ -75,9 +73,29 @@
                     </tr>
                     <tr>
                         <th>Оплата проезда</th>
-                        <td>Yes</td>
-                        <td>Yes</td>
-                        <td>Yes</td>
+                        <td colspan="3">Yes</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Оплата проживания</th>
+                        <td>No</td>
+                        <td colspan="2">Yes</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Занятость</th>
+                        <td colspan="2">Гибкий график от 20 часов до 40 часов в неделю</td>
+                        <td>Полная 5/2</td>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Продолжительность</th>
+                        <td>от 3 до 6 месяцев</td>
+                        <td>3 месяца</td>
+                        <td>от 1 до 2 месяцев</td>
                     </tr>
                 </tbody>
                 <tfoot>
@@ -142,7 +160,7 @@
                 <label for="desc"></label>
                 <textarea name="desc" autocomplete="off" id="desc" cols="30" rows="10" placeholder="Расскажите о себе"></textarea>
 
-                <button type="reset">Сбросить</button>
+                <button type="reset" >Сбросить</button>
                 <button type="submit">Отправить</button>
             </form>
         </section>
@@ -158,7 +176,7 @@
     <footer>
         <div class="container">
             <div class="logo">
-                <a href="/">Стажировка в <strong>IT</strong></a>
+                <a href="/">Стажировка в IT</a>
             </div>
             <div>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit iste sit exercitationem. Dolores placeat dignissimos saepe molestiae dicta vitae, inventore, qui temporibus porro quod molestias harum aliquam repellat nostrum! Earum.</p>

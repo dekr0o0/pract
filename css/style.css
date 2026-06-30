@@ -10,6 +10,15 @@
     "ELXP" 0;
 }
 
+header {
+    height: 60px;
+    position: fixed;
+    background: brown;
+    top:0;
+    width: 100%;
+    z-index: 2;
+}
+
 html, body {
     background: #bdc3c7;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
@@ -34,6 +43,9 @@ h1 {
 
 h2 {
     font-size: 2.2rem;
+    position: sticky;
+    top: 10px;
+    background: black;
 }
 
 p {
@@ -144,4 +156,9 @@ h3 {
 fieldset {
     color: rgb(255, 255, 255);
     border: none;
+}
+
+section {
+    position: relative;
+    margin: 120px 0;
 }
